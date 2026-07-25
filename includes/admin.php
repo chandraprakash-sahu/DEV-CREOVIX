@@ -3,8 +3,8 @@ session_start();
 require_once 'config.php';
 
 // Admin authentication
-$admin_username = 'admin';
-$admin_password = 'chandan@216724'; // Change this to your secure password
+$admin_username = '';
+$admin_password = ''; // Change this to your secure password
 
 // Check if logged in
 if (!isset($_SESSION['admin_logged_in'])) {
